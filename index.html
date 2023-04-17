@@ -19,13 +19,6 @@
     <title>Bate-Papo UOL</title>
   </head>
   <body>
-    <!-- Tela de Entrada -->
-    <!-- <div></div> -->
-
-    <!-- SideBar -->
-    <!-- <div></div> -->
-
-    <!-- Layout -->
     <header>
       <div>
         <img src="images/logo 2.png" />
@@ -34,8 +27,17 @@
     </header>
     <main></main>
     <footer>
-      <input type="text" placeholder="Escreva aqui..." />
-      <ion-icon name="paper-plane-outline"></ion-icon>
+      <input
+        data-test="input-message"
+        type="text"
+        placeholder="Escreva aqui..."
+      />
+      <div class="sendMessage" onclick="sendMessage()">
+        <ion-icon
+          data-test="send-message"
+          name="paper-plane-outline"
+        ></ion-icon>
+      </div>
     </footer>
 
     <script
