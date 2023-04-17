@@ -1,5 +1,3 @@
-axios.defaults.headers.common['Authorization'] = 'TGy2SZYKbVqXoTtLeDl2ZxnL';
-
 let inputName = prompt('Qual é o seu nome?');
 let to = 'Todos';
 let type = 'Público';
